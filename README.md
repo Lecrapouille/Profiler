@@ -63,4 +63,5 @@ int main()
 }
 ```
 
-See the previous screenshot as obtained result in Chrome.
+This will output [this JSON file](doc/profile.json). Dragging it on Chromium tracing will
+display the previous screenshot.

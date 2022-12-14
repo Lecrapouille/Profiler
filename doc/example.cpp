@@ -15,7 +15,7 @@ static void bar()
    usleep(1000);
 }
 
-// g++ -W -Wall --std=c++11 example.cpp -o prog
+// g++ -W -Wall --std=c++11 -I.. example.cpp -o prog
 int main()
 {
   START_PROFILING("HelloWord", "profile.json");
